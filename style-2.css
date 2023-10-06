@@ -1,0 +1,290 @@
+/*Second styleSheet for webpage*/
+body{
+    background-color: #dfdfdf;
+    font-family: "Tahoma", sans-serif;
+}
+/*Classes*/
+.titles{
+    color: #800000;
+    font-family: "Tahoma", sans-serif;
+    text-align: center;
+}
+
+.div-division-qualification{
+    text-align: center;
+}
+
+.ul-landing {
+    list-style-type: none;
+    padding: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5%;
+}
+
+.li-landing {
+    text-align: center;
+    margin-top: 0;
+    margin-right: 2%;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.li-landing a{
+    display: block;
+    color: black;
+    text-align: center;
+    font-family: "Tahoma", sans-serif;
+    font-size: 160%;
+    text-decoration: solid underline #800000 3px;
+}
+
+.li-landing a:hover{
+    color: #800000;
+    text-decoration: solid underline #800000 3px;
+}
+
+.div-division{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.br-temp{
+    display: none;
+}
+
+.landing-text{
+    font-family: "Tahoma", sans-serif;
+    font-size: 130%;
+    color: black;
+
+}
+
+.tech-divs{
+    display: flex;
+}
+
+.tech-division{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.technical-projects{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 7%;
+}
+
+.qualification-subtitle{
+    color: #800000;
+    font-size: 280%;
+    text-align: center;
+}
+
+.ul-qualification {
+    list-style: none;
+    padding-left: 0; 
+}
+
+.li-qualification {
+    text-align: center; 
+    color: black;
+    font-size: 130%;
+    margin-bottom: 2%;
+}
+
+.li-qualification::before {
+    content: "\2022"; 
+    color: #333; 
+    display: inline-block;
+    width: 1em; 
+    margin-right: 0.5em;
+}
+
+
+
+.div-division{
+    text-align: center;
+}
+
+.home-logo{
+    display: none;
+}
+
+/*ids*/
+#toggle-styles{
+    position: fixed;
+    right: 11%;
+    top: 7%;
+}
+
+#div-menu{
+    display: none;
+}
+
+#menu-li{
+    display: none;
+}
+
+#linkedin-picture{
+    max-width: 20%;
+    height: auto;
+}
+
+#landing-hr{
+    width: 85%;
+    color: #800000;
+    background-color: #800000;
+    height: 5px;
+}
+
+#Name{
+    font-weight: bold;
+    font-size: 450%;
+    margin-bottom: 0;
+}
+
+#Student{
+    font-size: 250%;
+    padding-top: 0;
+    margin-top: 0;
+
+}
+
+#landing-hr-2{
+    width: 85%;
+    color: #800000;
+    background-color: #800000;
+    height: 5px;
+}
+
+#div-text{
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#contact{
+    text-decoration: solid underline black 3px;
+    font-weight: bold;
+}
+
+#technical-link{
+    display: none;
+}
+
+#technical-title{
+    text-align: center;
+}
+
+#technical{
+    font-size: 500%;
+    color: #800000;
+}
+
+#technical-hr{
+    display: none;
+}
+
+#tech-images{
+    display: none;
+}
+
+#qualification-title{
+    font-size: 400%;
+    color: #800000; 
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#a-resume{
+    text-decoration: none;
+}
+
+#resume-download{
+    text-align: center;
+    color: #800000;
+    font-size: 120%;
+    text-decoration: solid underline #800000 3px;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+#resume-download:hover{
+    color: #6c6a6a;
+    text-decoration: solid underline #6c6a6a 3px;
+}
+
+#div1{
+    display: none;
+}
+
+#interest-area{
+    margin-top: 5%;
+}
+
+#qual-image1{
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    max-height: 80%;
+    width: auto;
+}
+
+#qual-image2{
+    position: absolute;
+    top: 17%;
+    right: 5%;
+    max-height: 80%;
+    width: auto;
+}
+
+#service-section{
+    text-align: center;
+    color: #800000;
+    font-size: 450%;
+}
+
+#github-logo{
+    position: fixed;
+    max-width: 4%;
+    height: auto;
+    bottom: 7%;
+    right: 50%;
+}
+
+#service-list {
+    padding: 0;
+    margin-left: 30%;
+}
+
+.service-bullet {
+    font-size: 100%;
+    width: 40%;
+}
+
+.service-bullet::marker {
+    font-size: 800%; /* Adjust the font size as needed */
+    
+}
+
+.service-div{
+    display: none;
+}
+
+#tree-service{
+    position: absolute;
+    top: 20%;
+    right: 11%;
+    max-height: 75%;
+    width: auto;
+}
+
+.overlay{
+    width: 50%;
+    text-align: center;
+}

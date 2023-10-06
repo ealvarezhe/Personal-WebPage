@@ -1,0 +1,138 @@
+/* AI-styles.css */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 450%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.capabilities {
+    flex: 1;
+    padding: 0 10px;
+    margin-left: 15%;
+}
+
+.capabilities h2 {
+    font-size: 280%;
+}
+
+.capabilities ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.capabilities ul li {
+    margin-bottom: 5%;
+    font-size: 130%;
+}
+
+.images {
+    flex: 2;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Center align the images vertically */
+}
+
+.images img {
+    max-width: 30%;
+    max-height: 65vh; /* Set a maximum height based on viewport height */
+    width: auto;
+    height: auto;
+    margin-right: 3%; /* Adjust the right margin between images */
+}
+
+/* Center-align the description text */
+.image-description {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 100%;
+    text-align: right;
+    margin-right: 31.5%;
+}
+
+/* Additional style for the home button */
+.home-button {
+    position: fixed;
+    bottom: 5%;
+    left: 15%;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+/* Remove the visited link color */
+.home-button:visited {
+    color: white;
+}
+
+/* Style for the footer text */
+.footer-text {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    color: white; /* Font color */
+    font-family: "Source Sans Pro", sans-serif; /* Font family */
+    font-size: 80%; /* Font size */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #181818;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .dropdown-content a:hover {background-color: #262525;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover #menu {background-color: #181818;}
+
+  
+#menu{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+#title{
+    margin-top: 0;
+}
+
+#toggle-styles{
+    position: fixed;
+    right: 11%;
+    top: 7%;
+}

@@ -1,0 +1,345 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 450%;
+}
+  
+/*Classes*/
+.titles{
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.ul-landing {
+    list-style-type: none;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 0;
+    background-color: transparent;
+}
+
+.li-landing {
+    float: left;
+}
+
+.li-landing a{
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 125%;
+    margin: 15px; /*Margin is not clickable area and padding is*/
+    text-decoration: none;
+}
+
+.li-landing a:hover{
+    color: #6c6a6a;
+}
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #181818;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .dropdown-content a:hover {background-color: #262525;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover #menu {background-color: #181818;}
+
+.li-hide{
+    display: none;
+}
+
+.landing-text{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 130%;
+    color: white;
+    margin-top: 4%;
+    margin-left: 25%;
+}
+
+.technical-images{
+    text-align: center;
+    margin-top: 2%;
+    padding: 0;
+}
+
+.technical-projects{
+    max-width: 100%;
+    height: auto;
+}
+
+.tech-divs{
+    display: none;
+}
+
+.t_br{
+    display: none;
+}
+
+.home-logo{
+    position: fixed;
+    max-width: 4%; /*To avoid pixelation*/
+    height: auto;
+    bottom: 7%;
+    left: 5%;
+}
+
+.div-division{
+    display: flex;
+}
+
+.div-division-qualification{
+    width: 50%;
+}
+
+.qualification-subtitle{
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 280%;
+    margin-left: 15%;
+}
+
+.ul-qualification{
+    margin-left: 15%;
+}
+
+.li-qualification{
+    margin: 4%;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 130%;
+}
+
+.picture-division{
+    width: 50%;
+    text-align: center;
+}
+
+.qual-images{
+    max-width: 50%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.service-div{
+    text-align: center;
+    position: relative;
+}
+
+.service-images{
+    margin: 1%;
+    width: 60%;
+    height: auto;
+}
+
+/*IDs*/
+#toggle-styles{
+    position: fixed;
+    right: 11%;
+    top: 7%;
+}
+
+#menu{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#git{
+    border-bottom: 3px solid rgb(17, 189, 17);
+}
+
+#linkedin{
+    border-bottom: 3px solid white;
+}
+
+#hand{
+    border-bottom: 3px solid red;
+}
+
+#landing-hr{
+    margin-left: 9%;
+    margin-right: 10%;
+    color: white;
+    background-color: whitesmoke;
+    height: 2px;
+}
+
+#landing-hr-2{
+    display: none;
+}
+
+#Name{
+    font-weight: bold;
+    margin-bottom: 0; /* Spacing between Name and Studnet */
+    margin-left: 12%;
+}
+
+#Student{
+    font-size: 250%;
+    padding-top: 0; /* Spacing between Name and Studnet */
+    margin-top: 0;
+    margin-left: 12%; /* Spacing between Name and Studnet */
+}
+
+#contact{
+    text-decoration: solid underline white 3px;
+    font-weight: bold;
+}
+
+#div-image-index{
+    text-align: center;
+}
+
+#linkedin-picture{
+    max-width: 40%;
+    height: auto;
+}
+
+#technical-link{
+    position: fixed;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    text-decoration: solid underline white;
+    font-size: 130%;
+    bottom: 7%;
+    right: 20%;
+}
+
+#technical-link:hover{
+    color: #6c6a6a;
+}
+
+#technical-title{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+#technical{
+    font-weight: 250%;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+#technical-hr{
+    width: 80%;
+    color: white;
+    background-color: whitesmoke;
+    height: 2px;
+}
+
+#github-logo{
+    position: fixed;
+    max-width: 4%;
+    height: auto;
+    bottom: 7%;
+    right: 5%;
+}
+
+#qualification-title{
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 10%;
+    margin-top: 0;
+}
+
+#div-centered{
+    display: none;
+}
+
+#a-resume{
+    text-decoration: none;
+}
+
+#resume-download{
+    text-align: center;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 120%;
+    text-decoration: solid underline white 3px;
+}
+
+#resume-download:hover{
+    color: #6c6a6a;
+    text-decoration: solid underline #6c6a6a 3px;
+}
+
+#service-section{
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    margin-top: 0;
+}
+
+#service-list{
+    display: none;
+}
+
+#tree-service{
+    display: none;
+}
+
+
+
+.image-overlay {
+    position: relative;
+    display: inline-block;
+    margin-right: 4%;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s; /* Smooth transition effect */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-overlay:hover .overlay {
+    opacity: 1; /* Show the overlay on hover */
+}
+
+.overlay p {
+    width: 50%;
+    height: auto;
+    color: white;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.service-div:hover .overlay {
+    opacity: 1;
+}
